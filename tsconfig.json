@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+       "es2015", "dom", "esnext"
+    ],
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "**/*",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

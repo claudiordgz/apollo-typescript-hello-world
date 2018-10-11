@@ -1,0 +1,35 @@
+{
+  "name": "apollo-demo",
+  "version": "0.0.1",
+  "description": "Simple example covering the very basics of Graphql, and Apollo",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm run lint && tsc",
+    "start": "npm run build && node dist/server.js",
+    "lint": "tslint --config tslint.json --project tsconfig.json"
+  },
+  "dependencies": {
+    "@types/lodash": "4.14.117",
+    "@types/graphql": "14.0.2",
+    "@types/node": "10.11.7",
+    "graphql-tools": "4.0.0",
+    "apollo-server": "2.1.0",
+    "lodash": "4.17.11",
+    "graphql": "14.0.2",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "8.0.1",
+    "typescript": "3.1.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "apollo",
+    "glitch",
+    "graphql"
+  ]
+}
